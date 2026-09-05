@@ -1,0 +1,4 @@
+asdsaenv/
+.env
+*.db
+/__pycache__/
