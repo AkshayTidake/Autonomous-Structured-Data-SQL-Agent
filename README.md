@@ -26,10 +26,6 @@ Rather than relying on generic black-box agent factories that frequently throw A
 
 ## ⏱️ Technical System Workflow
 
-
-
-## ⏱️ Technical System Workflow
-
 Use code with caution.[User Natural Query Input]│▼[Schema Context] ──> [SQL Generation Prompt] ──> [LLM Translation Engine]│[Render UI Code] <── [Raw SQL Query String] <───────────┘│▼[SQLite3 Database]│▼[Final Synthesis] <── [Raw Relational Matrix]
 
 1. **Schema Aggregation:** The engine dynamically scans the connected SQLite instance, mapping structural keys and table identifiers into a standardized text array.
@@ -71,10 +67,3 @@ streamlit run sql_agent.py
 ```
 
 ---
-
-## 📝 Resume Summary Example
-**Autonomous Structured Data SQL Agent** | *Python, LangChain (LCEL), SQLite3, Groq Cloud API, Streamlit, Git*
-* Engineered a deterministic data analytics engine that translates complex natural language queries into optimized SQLite queries across relational schemas.
-* Bypassed unstable black-box tool abstractions by architecting a custom **Sequential LCEL Chain Framework** splitting SQL compilation from text synthesis.
-* Constructed a runtime schema reflection system that dynamically passes table layout limits and foreign key structures, maximizing structural query alignment.
-* Designed a responsive analytical interface using Streamlit that captures intermediate execution steps, exposing generated raw code alongside final data summaries.
